@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./recipe.css">
+    <title>Potato Leaves Recipe</title>
+</head>
+
+<body>
+    <header>
+        <h1>Potato Leaves Recipe</h1>
+    </header>
+
+    <main>
+        <center><img class="zoomable-image" src="./img/PL.jpeg" alt="Potato Leaves"
+                style="border-radius: 15px; width: 350px;">
+        </center>
+        <br>
+
+        <section id="ingredients">
+            <h2>Ingredients</h2>
+            <ul style="font-size: 17px; line-height: 2;">
+                <li><input type="checkbox"> 3 packs of already chopped sweet potato leaves</li>
+                <li><input type="checkbox"> 200ml of Palm oil</li>
+                <li><input type="checkbox"> Pack of Ogiri</li>
+                <li><input type="checkbox"> Tin of Butter beans</li>
+                <li><input type="checkbox"> 4 tablespoon Peanut butter</li>
+                <li><input type="checkbox"> Assorted meat of your choice</li>
+                <li><input type="checkbox"> Smoked fish</li>
+                <li><input type="checkbox"> Scotch bonnet pepper (to your taste)</li>
+                <li><input type="checkbox"> 2 medium sized Onions</li>
+                <li><input type="checkbox"> Maggie seasoning (2 cubes)</li>
+                <li><input type="checkbox"> salt (to your taste)</li>
+                <li><input type="checkbox"> 3 Okra</li>
+            </ul>
+
+        </section>
+        <section id="video">
+            <h2>Video Tutorial</h2>
+            <iframe class="fade-in" width="560" height="315" src="https://www.youtube.com/embed/CqOLAR634cA"
+                frameborder="0" allowfullscreen></iframe>
+        </section>
+
+
+
+        <section id="audio">
+            <h2>Audio Instructions - English</h2>
+            <audio controls>
+                <source src="potato_leaves_audioE.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h2>Audio Instructions - Krio</h2>
+            <audio controls>
+                <source src="potato_leaves_audioK.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section id="instructions">
+            <h2>Cooking Instructions</h2>
+            <ol>
+
+                <li class="accordion">Start with washing then bringing your meat in to boil until tender
+                    for approximately 30-40 minutes.
+                </li>
+                <div class="panel">
+                    <p>Allow the meat to actually boil to tenderness</p>
+                </div>
+                <li class="accordion">Next wash the chopped potato leaves and leave it in a colander to drain
+                    any excess water.
+                </li>
+                <div class="panel">
+                    <p>wash properly to remove gravel.</p>
+                </div>
+                <li class="accordion">Next blend onions and sscotch pepper with ogiri. This should look like a
+                    thick smooth paste.
+                </li>
+                <div class="panel">
+                    <p>Make sure to blend properly</p>
+                </div>
+                <li class="accordion">After the meat has boiled, add the above paste mixture and your meat in a
+                    medium sized cooking pot, add 2 pints of water and bring to boil for about 20 minutes.
+                </li>
+                <div class="panel">
+                    <p>Allow it to boil properly and do not add too much water at first.</p>
+                </div>
+                <li class="accordion">Whilst the pot boils, mix the Peanut butter with 50ml of water so it is slightly
+                    watery.</li>
+                <div class="panel">
+                    <p>Do not add too much water for it to be too light.</p>
+                </div>
+                <li class="accordion">Add Peanut mixture, palm oil, maggie seasoning and salt after the 20 minutes or
+                    until you have
+                    a thick soupy consistence.
+                </li>
+                <div class="panel">
+                    <p>Mix well to actually spread the seasoning throughout</p>
+                </div>
+                <li class="accordion">Then add the washed potato leaves with the smoked fish. mix
+                    the pot and leave pot to boil for a further 15 mins in medium heat.
+                </li>
+                <div class="panel">
+                    <p>Add the ingredients and allow to cook on a medium heat.</p>
+                </div>
+                <li class="accordion">Finally chop and crush okra and add to the boiling pot. Turn the
+                    heat low and let the sauce simmer for a further 5 mins or until the palm oil is floating.
+                </li>
+                <div class="panel">
+                    <p>When the palm oil starts floating signifies that the dish is done and ready to be served. <br>
+                        Enjoy your meal</p>
+                </div>
+
+
+            </ol>
+        </section>
+    </main>
+
+    <section id="timer">
+        <h2>Cooking Timer</h2>
+        <div id="timer-display">00:00</div>
+        <button id="start-timer">Start Timer</button>
+        <button id="stop-timer">Stop Timer</button>
+    </section>
+    <br>
+    <button id="print-button">Print Recipe</button>
+    <br>
+    <br>
+
+    <footer>
+        <p>&copy; 2023 Potato Leaves Recipe</p>
+    </footer>
+
+    <script src="./recipeP.js"></script>
+</body>
+
+</html>

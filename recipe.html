@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./recipe.css">
+    <title>Cassava Leaves Recipe</title>
+</head>
+
+<body>
+    <header>
+        <h1>Cassava Leaves Recipe</h1>
+    </header>
+
+    <main>
+        <center><img class="zoomable-image" src="./img/CL.jpeg" alt="Cassava Leaves"
+                style="border-radius: 15px; width: 350px;">
+        </center>
+        <br>
+
+        <section id="ingredients">
+            <h2>Ingredients</h2>
+            <ul style="font-size: 17px; line-height: 2;">
+                <li><input type="checkbox"> 2 cups of fresh cassava leaves</li>
+                <li><input type="checkbox"> 1 onion, finely chopped</li>
+                <li><input type="checkbox"> 2 cloves of garlic, minced</li>
+                <li><input type="checkbox"> 1/2 cup of peanut butter</li>
+                <li><input type="checkbox"> 1/2 cup of palm oil</li>
+                <li><input type="checkbox"> Salt and pepper to taste</li>
+            </ul>
+
+        </section>
+
+        <section id="video">
+            <h2>Video Tutorial</h2>
+            <iframe class="fade-in" width="560" height="315" src="https://www.youtube.com/embed/2uEvUo1k9LI"
+                frameborder="0" allowfullscreen></iframe>
+        </section>
+
+
+        <section id="audio">
+            <h2>Audio Instructions - English</h2>
+            <audio controls>
+                <source src="cassava_leaves_audioE.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h2>Audio Instructions - Krio</h2>
+            <audio controls>
+                <source src="cassava_leaves_audioK.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section id="instructions">
+            <h2>Cooking Instructions</h2>
+            <ol>
+
+                <li class="accordion">Wash the cassava leaves thoroughly and remove any tough stems.</li>
+                <div class="panel">
+                    <p>Wash the cassava leaves thoroughly and remove any tough stems.</p>
+                </div>
+                <li class="accordion">Heat the palm oil in a large pot over medium heat.</li>
+                <div class="panel">
+                    <p>Put the palm oil and heat on a medium heat</p>
+                </div>
+                <li class="accordion">Add the minced garlic and chopped onion to the pot and sauté until fragrant.</li>
+                <div class="panel">
+                    <p>Add the minced and chooped garlic and onion</p>
+                </div>
+                <li class="accordion">Add the peanut butter to the pot and stir well to combine with the oil, garlic,
+                    and onion.</li>
+                <div class="panel">
+                    <p>Add the grounded groundnut to the pot and stir</p>
+                </div>
+                <li class="accordion">Add the cassava leaves to the pot and stir to coat them with the peanut sauce</li>
+                <div class="panel">
+                    <p>Add the cassava leaves to the groundnut.</p>
+                </div>
+                <li class="accordion">Cook for about 20-30 minutes, stirring occasionally, until the cassava leaves are
+                    tender.</li>
+                <div class="panel">
+                    <p>Keep stirring</p>
+                </div>
+                <li class="accordion">Season with salt and pepper to taste.</li>
+                <div class="panel">
+                    <p>Half to one table spoon is ok</p>
+                </div>
+                <li class="accordion">Serve hot and enjoy your delicious cassava leaves!</li>
+                <div class="panel">
+                    <p>Enjoy your meal</p>
+                </div>
+
+
+            </ol>
+        </section>
+    </main>
+
+    <section id="timer">
+        <h2>Cooking Timer</h2>
+        <div id="timer-display">00:00</div>
+        <button id="start-timer">Start Timer</button>
+        <button id="stop-timer">Stop Timer</button>
+    </section>
+    <br>
+    <button id="print-button">Print Recipe</button>
+    <br>
+    <br>
+
+    <footer>
+        <p>&copy; 2023 Cassava Leaves Recipe</p>
+    </footer>
+
+    <script src="./recipe.js"></script>
+</body>
+
+</html>

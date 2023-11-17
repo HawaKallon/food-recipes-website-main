@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./recipe.css">
+    <title>Wawa's cookbook | Groundnut Soup Recipe</title>
+</head>
+
+<body>
+    <header>
+        <h1>Groundnut Soup Recipe</h1>
+    </header>
+
+    <main>
+        <center><img class="zoomable-image" src="./img/GC.jpeg" alt="groundnut soup"
+                style="border-radius: 15px; width: 350px;">
+        </center>
+        <br>
+
+        <section id="ingredients">
+            <h2>Ingredients</h2>
+            <ul style="font-size: 17px; line-height: 2;">
+                <li><input type="checkbox"> 2 cups of roasted peanuts</li>
+                <li><input type="checkbox"> 1 onion, finely chopped</li>
+                <li><input type="checkbox"> 2 cloves of garlic, minced</li>
+                <li><input type="checkbox"> 1/2 cup of palm oil</li>
+                <li><input type="checkbox"> 1 cup of chopped spinach or other leafy greens</li>
+                <li><input type="checkbox"> Salt and pepper to taste</li>
+            </ul>
+
+        </section>
+
+        <section id="video">
+            <h2>Video Tutorial</h2>
+            <iframe class="fade-in" width="560" height="315" src="https://www.youtube.com/embed/wTZgMyp_qig"
+                frameborder="0" allowfullscreen></iframe>
+        </section>
+
+
+
+        <section id="audio">
+            <h2>Audio Instructions - English</h2>
+            <audio controls>
+                <source src="groundnut_soup_audioE.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h2>Audio Instructions - Krio</h2>
+            <audio controls>
+                <source src="groundnut_soup_audioK.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section id="instructions">
+            <h2>Cooking Instructions</h2>
+            <ol>
+
+                <li class="accordion">Roast the peanuts until they are golden brown.</li>
+                <div class="panel">
+                    <p>Roast the peanuts until they are golden brown.</p>
+                </div>
+                <li class="accordion">Heat the palm oil in a large pot over medium heat.</li>
+                <div class="panel">
+                    <p>Put the palm oil and heat on medium heat.</p>
+                </div>
+                <li class="accordion">Add the minced garlic and chopped onion to the pot and sauté until fragrant.</li>
+                <div class="panel">
+                    <p>Add the minced garlic and chopped onion.</p>
+                </div>
+                <li class="accordion">Add the roasted peanuts to the pot and stir well to combine with the oil, garlic,
+                    and onion.</li>
+                <div class="panel">
+                    <p>Add the roasted peanuts to the pot and stir.</p>
+                </div>
+                <li class="accordion">Add the chopped spinach or other leafy greens to the pot and stir to coat them
+                    with
+                    the peanut sauce.</li>
+                <div class="panel">
+                    <p>Add the chopped spinach to the groundnut.</p>
+                </div>
+                <li class="accordion">Cook for about 20-30 minutes, stirring occasionally, until the greens are tender.
+                </li>
+                <div class="panel">
+                    <p>Keep stirring.</p>
+                </div>
+                <li class="accordion">Season with salt and pepper to taste.</li>
+                <div class="panel">
+                    <p>Adjust salt and pepper to your liking.</p>
+                </div>
+                <li class="accordion">Serve hot and enjoy your delicious Groundnut Soup!</li>
+                <div class="panel">
+                    <p>Enjoy your meal.</p>
+                </div>
+
+
+            </ol>
+        </section>
+    </main>
+
+    <section id="timer">
+        <h2>Cooking Timer</h2>
+        <div id="timer-display">00:00</div>
+        <button id="start-timer">Start Timer</button>
+        <button id="stop-timer">Stop Timer</button>
+    </section>
+    <br>
+    <button id="print-button">Print Recipe</button>
+    <br>
+    <br>
+
+    <footer>
+        <p>&copy; 2023 Groundnut Soup Recipe</p>
+    </footer>
+
+    <script src="./recipeG.js"></script>
+</body>
+
+</html>

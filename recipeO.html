@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./recipe.css">
+    <title>Wawa's cookbook | Okra Dish Recipe</title>
+</head>
+
+<body>
+    <header>
+        <h1>Okra Dish Recipe</h1>
+    </header>
+
+    <main>
+        <center><img class="zoomable-image" src="./img/OK.jpeg" alt="Okra Dish"
+                style="border-radius: 15px; width: 350px;">
+        </center>
+        <br>
+
+        <section id="ingredients">
+            <h2>Ingredients</h2>
+            <ul style="font-size: 17px; line-height: 2;">
+                <li><input type="checkbox"> 2 cups of fresh okra, sliced</li>
+                <li><input type="checkbox"> 1 onion, finely chopped</li>
+                <li><input type="checkbox"> 2 tomatoes, diced</li>
+                <li><input type="checkbox"> 2 cloves of garlic, minced</li>
+                <li><input type="checkbox"> 1/2 cup of palm oil</li>
+                <li><input type="checkbox"> 1 cup of fish or meat stock</li>
+                <li><input type="checkbox"> Salt and pepper to taste</li>
+            </ul>
+        </section>
+
+        <section id="video">
+            <h2>Video Tutorial</h2>
+            <iframe class="fade-in" width="560" height="315" src="https://www.youtube.com/embed/5dyAsn7RfhE"
+                frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <section id="audio">
+            <h2>Audio Instructions - English</h2>
+            <audio controls>
+                <source src="okra_dish_audioE.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h2>Audio Instructions - Krio</h2>
+            <audio controls>
+                <source src="okra_dish_audioK.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section id="instructions">
+            <h2>Cooking Instructions</h2>
+            <ol>
+                <li class="accordion">Heat palm oil in a pot over medium heat.</li>
+                <div class="panel">
+                    <p>Heat palm oil in a pot over medium heat.</p>
+                </div>
+                <li class="accordion">Add chopped onions and minced garlic, sauté until they become golden brown.</li>
+                <div class="panel">
+                    <p>Add chopped onions and minced garlic, sauté until they become golden brown.</p>
+                </div>
+                <li class="accordion">Add diced tomatoes and cook until they soften.</li>
+                <div class="panel">
+                    <p>Add diced tomatoes and cook until they soften.</p>
+                </div>
+                <li class="accordion">Pour in the fish or meat stock and bring to a simmer.</li>
+                <div class="panel">
+                    <p>Pour in the fish or meat stock and bring to a simmer.</p>
+                </div>
+                <li class="accordion">Add sliced okra to the pot and stir well.</li>
+                <div class="panel">
+                    <p>Add sliced okra to the pot and stir well.</p>
+                </div>
+                <li class="accordion">Cover the pot and let it simmer for about 15-20 minutes until okra is tender.</li>
+                <div class="panel">
+                    <p>Cover the pot and let it simmer for about 15-20 minutes until okra is tender.</p>
+                </div>
+                <li class="accordion">Season with salt and pepper to taste.</li>
+                <div class="panel">
+                    <p>Season with salt and pepper to taste.</p>
+                </div>
+                <li class="accordion">Serve hot and enjoy your delicious Okra Dish!</li>
+                <div class="panel">
+                    <p>Enjoy your meal.</p>
+                </div>
+            </ol>
+        </section>
+    </main>
+
+    <section id="timer">
+        <h2>Cooking Timer</h2>
+        <div id="timer-display">00:00</div>
+        <button id="start-timer">Start Timer</button>
+        <button id="stop-timer">Stop Timer</button>
+    </section>
+    <br>
+    <button id="print-button">Print Recipe</button>
+    <br>
+    <br>
+
+    <footer>
+        <p>&copy; 2023 Okra Dish Recipe</p>
+    </footer>
+
+    <script src="./recipeO.js"></script>
+</body>
+
+</html>

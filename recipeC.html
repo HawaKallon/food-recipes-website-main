@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./recipe.css">
+    <title>Wawa's Cookbook | Crain Crain Recipe</title>
+</head>
+
+<body>
+    <header>
+        <h1>Crain-Crain Recipe</h1>
+    </header>
+
+    <main>
+        <center><img class="zoomable-image" src="./img/CC.jpeg" alt="Crain Crain Leaves"
+                style="border-radius: 15px; width: 350px;">
+        </center>
+        <br>
+
+        <section id="ingredients">
+            <h2>Ingredients</h2>
+            <ul style="font-size: 17px; line-height: 2;">
+                <li><input type="checkbox"> 2 bunch of crain crain</li>
+                <li><input type="checkbox"> Palm oil</li>
+                <li><input type="checkbox"> 3 medium sized onions</li>
+                <li><input type="checkbox"> 6 scotch peppers or enough to your tolerance</li>
+                <li><input type="checkbox"> 1 big pack of ogiri</li>
+                <li><input type="checkbox"> A handful of okra</li>
+                <li><input type="checkbox"> Meat (Kanda, cow, intestines)</li>
+                <li><input type="checkbox"> Smoked fish</li>
+                <li><input type="checkbox"> Bicarbonate soda</li>
+                <li><input type="checkbox"> Maggie season</li>
+                <li><input type="checkbox"> Salt</li>
+            </ul>
+
+        </section>
+
+        <section id="video">
+            <h2>Video Tutorial</h2>
+            <iframe class="fade-in" width="560" height="315" src="https://www.youtube.com/embed/XI5A4456Rzs"
+                frameborder="0" allowfullscreen></iframe>
+        </section>
+
+
+
+        <section id="audio">
+            <h2>Audio Instructions - English</h2>
+            <audio controls>
+                <source src="crain_crain_audioE.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h2>Audio Instructions - Krio</h2>
+            <audio controls>
+                <source src="crain_crain_audioK.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section id="instructions">
+            <h2>Cooking Instructions</h2>
+            <ol>
+
+                <li class="accordion">Pluck the leaves of the crain crain from the petiole (leaf stalk)</li>
+                <div class="panel">
+                    <p>Remove the leaves from the stems.</p>
+                </div>
+                <li class="accordion">Wash crain crain thoroughly and put aside</li>
+                <div class="panel">
+                    <p>Wash them properly to remove gravel.</p>
+                </div>
+                <li class="accordion">Wash and chop okra and put aside.</li>
+                <div class="panel">
+                    <p>Cut and put aside.</p>
+                </div>
+                <li class="accordion">Bring your meat, kanda (cow skin, intestines) to boil for about 40 minutes or
+                    as soft as you want it.</li>
+                <div class="panel">
+                    <p>Boil till tender.</p>
+                </div>
+                <li class="accordion">Meanwhile blend onions and scotch pepper with ogiri. This should
+                    look like a thick smooth paste.
+                </li>
+                <div class="panel">
+                    <p>Blend til smooth.</p>
+                </div>
+                <li class="accordion">Add the above mixture to the boiled meat and add 2 pints of water.
+                </li>
+                <div class="panel">
+                    <p>Add 2 pints of water.</p>
+                </div>
+                <li class="accordion">Add half a pint of palm oil to the pot and leave it to boil for 30 mins or
+                    until you have a thick soup consistency.
+                </li>
+                <div class="panel">
+                    <p>Add 1/2 pint of palm oil.</p>
+                </div>
+                <li class="accordion">Add maggie season to taste. Then add 2 pinches of Bicarbonate soda</li>
+                <div class="panel">
+                    <p>Add maggie and Bicarbonate</p>
+                </div>
+                <li class="accordion">Once the stew starts foaming, add crain crain and okra and leave to cook for about
+                    10 minutes. Leave the pot open Whilst pot boils and until the stew is cooked.
+                </li>
+                <div class="panel">
+                    <p>Add the crain crain and okra</p>
+                </div>
+                <li class="accordion">Once the leaves are cooked, add fish and one or 2 scotch pepper for garnish when
+                    serving the dish later.
+                </li>
+                <div class="panel">
+                    <p>Add the fish and pepper.</p>
+                </div>
+
+
+            </ol>
+        </section>
+    </main>
+
+    <section id="timer">
+        <h2>Cooking Timer</h2>
+        <div id="timer-display">00:00</div>
+        <button id="start-timer">Start Timer</button>
+        <button id="stop-timer">Stop Timer</button>
+    </section>
+    <br>
+    <button id="print-button">Print Recipe</button>
+    <br>
+    <br>
+
+    <footer>
+        <p>&copy; 2023 Crain-Crain Recipe</p>
+    </footer>
+
+    <script src="./recipeC.js"></script>
+</body>
+
+</html>
